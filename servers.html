@@ -1,2 +1,29 @@
-https://discord.gg/HkD79GfmQQ civmc 
-https://discord.gg//Kk4MbvzXsg arnen
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<link rel='stylesheet' href='CCS/main.css'>
+<title>deadsek | servers</title>
+<a href="civmc"><h1 id="headline" class="glowIn">Servers</h1></a>
+<a href="https://discord.gg/HkD79GfmQQ" class="glowIn" target="_blank">CivMC Discord</a>
+<a href="https://discord.gg/Kk4MbvzXsg" class="glowIn" target="_blank">Arnen Discord</a>
+<a href="https://discord.gg/GScaJ2gURd" class="glowIn" target="_blank">Kallos Discord</a>
+</html>
+<script>
+    "use strict";
+    var glowIn = document.querySelectorAll(".glowIn");
+    glowIn.forEach(function (glowIn) {
+    var letters = glowIn.textContent.split("");
+    glowIn.textContent = "";
+    letters.forEach(function (letter, i) {
+    var span = document.createElement("span");
+    span.textContent = letter;
+    span.style.animationDelay = i * 0.08 + "s";
+    glowIn.append(span);
+    });
+    });                                                                            
+    </script>
